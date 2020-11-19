@@ -4,7 +4,7 @@ const setCors = require('./utils/setCors')
 
 const graphQLOptions = {
   // Set the path for the GraphQL server
-  baseEndpoint: '/',
+  baseEndpoint: '/___graphql',
 
   // Set the path for the GraphQL playground
   // This option can be removed to disable the playground route
